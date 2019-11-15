@@ -7,6 +7,7 @@ TODO:
 ## Version 1.0 details
 
 Count of degradations:
+
 	* none: 2501
 	* pitch_shift: 2501
 	* time_shift: 2502
@@ -17,11 +18,13 @@ Count of degradations:
 	* split_note: 2502
 	* join_notes: 2501
 
-You will find the generated data within the zipped directory `acme` with subdirectories
+You will find the generated data within the zipped directory `acme` with subdirectories:
+
 	* `clean` - contains the extracted clean excerpts
 	* `altered` - contains the excerpts altered by the degradations described in `metadata.csv`
 
 `metadata.csv` describes:
+
 	* (the id number for) the type of degradation used for the alteration
 	* the path for the altered and clean files
 	* which split (train, valid, test) the file should be used in
