@@ -1,10 +1,8 @@
 # The ACME dataset - Altered and Corrupted Midi Excerpts
 
-TODO:
-* Link to specific mdtk release which generated code
-* Credit all sources of data
-
 ## Version 1.0 details
+
+Generated using code from MDTK version 1.0: https://github.com/JamesOwers/midi_degradation_toolkit/releases/tag/v1.0
 
 Count of degradations:
 
@@ -37,4 +35,4 @@ The `{train,valid,test}_cmd_corpus.csv` are command-based (note_on, note_off, sh
 Similarly, `{train,valid,test}_pr_corpus.csv` are piano-roll-based versions of the acme data more convenient for our provided pytorch Dataset classes avaialble in the [Midi Degradation ToolKit package](https://github.com/JamesOwers/midi_degradation_toolkit).
 
 ### Reproducibility
-To reproduce this dataset again, install the [Midi Degradation ToolKit package](https://github.com/JamesOwers/midi_degradation_toolkit) and run `./make_dataset --seed 1762218506`
+To reproduce this dataset again, install the [Midi Degradation ToolKit package version 1.0](https://github.com/JamesOwers/midi_degradation_toolkit/releases/tag/v1.0) and run `./make_dataset --seed 1762218506`
