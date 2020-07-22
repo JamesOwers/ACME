@@ -5,16 +5,15 @@
 Generated using code from MDTK version 1.0: https://github.com/JamesOwers/midi_degradation_toolkit/releases/tag/v1.0
 
 Count of degradations:
-
-* none: 2501
-* pitch_shift: 2501
-* time_shift: 2502
-* onset_shift: 2501
-* offset_shift: 2501
-* remove_note: 2502
-* add_note: 2501
-* split_note: 2502
-* join_notes: 2501
+	* none: 2501
+	* pitch_shift: 2502
+	* time_shift: 2502
+	* onset_shift: 2502
+	* offset_shift: 2501
+	* remove_note: 2502
+	* add_note: 2501
+	* split_note: 2502
+	* join_notes: 2501           
 
 You will find the generated data within the zipped directory `acme` with subdirectories:
 
@@ -35,4 +34,4 @@ The `{train,valid,test}_cmd_corpus.csv` are command-based (note_on, note_off, sh
 Similarly, `{train,valid,test}_pr_corpus.csv` are piano-roll-based versions of the acme data more convenient for our provided pytorch Dataset classes avaialble in the [Midi Degradation ToolKit package](https://github.com/JamesOwers/midi_degradation_toolkit).
 
 ### Reproducibility
-To reproduce this dataset again, install the [Midi Degradation ToolKit package version 1.0](https://github.com/JamesOwers/midi_degradation_toolkit/releases/tag/v1.0) and run `./make_dataset --seed 1762218506`
+To reproduce this dataset again, install the [Midi Degradation ToolKit package version 1.1](https://github.com/JamesOwers/midi_degradation_toolkit/releases/tag/v1.1) and run `./make_dataset --seed 208724510`
